@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 function LandingPage(){
 useEffect (()=>{
@@ -13,6 +14,7 @@ return(
     }}>
 
         <h2>시작페이지</h2>
+        <Link className="Notice" to={'/notice'}>Notice</Link>
     </div>
 )
 }
