@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header>
             <Link to ="/">홈</Link> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <Link to ="/notice">Notice</Link>
+            <Link to ="/boardList">메시지함</Link>
         </header>
         
     )
