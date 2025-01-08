@@ -14,7 +14,6 @@ return(
     }}>
 
         <h2>시작페이지</h2>
-        <Link className="Notice" to={'/notice'}>Notice</Link>
     </div>
 )
 }
